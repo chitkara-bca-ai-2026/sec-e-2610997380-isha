@@ -1,0 +1,16 @@
+t_fee=int(input("Enter Tuition Fee: "))
+l_fee=int(input("Enter Lab Fee: "))
+lib_fee=int(input("Enter Library Fee: "))
+exam_fee=int(input("Enter Exam Fee: "))
+discount=int(input("Enter Discount Amount: "))
+total=t_fee+l_fee+lib_fee+exam_fee
+fee_discount=total-discount
+print(f"Tuition Fees: {t_fee}")
+print(f"Lab Fee: {l_fee}")
+print(f" Library Fee: {lib_fee}")
+print(f"Exam Fee: {exam_fee}")
+print(f"Total Fee: {total}")
+print(f"Discount: {discount}")
+print(f"Fee after discount: {fee_discount}")
+print(f"Annual fee: {fee_discount*2}")
+print(f"Monthly Installment: {fee_discount*2/12}")
